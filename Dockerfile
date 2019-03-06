@@ -80,5 +80,5 @@ RUN chmod +x /usr/local/bin/run_jupyter.sh \
 
 # Change user to start Jupyter
 USER $NB_USER
-# CMD ["/usr/local/bin/run_jupyter.sh"]
-CMD ["/usr/local/bin/run_jupyterlab.sh"]
+CMD ["/usr/local/bin/run_jupyter.sh"]
+# CMD ["/usr/local/bin/run_jupyterlab.sh"]
