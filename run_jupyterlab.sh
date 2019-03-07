@@ -1,2 +1,2 @@
 #!/bin/sh
-jupyter lab --ip=0.0.0.0 --no-browser --notebook-dir=$USER_HOME/Dropbox/Jupyter
+jupyter lab --ip=0.0.0.0 --no-browser --notebook-dir=$USER_HOME/Dropbox/Jupyter --NotebookApp.token='ubg'
