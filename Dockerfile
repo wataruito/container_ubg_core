@@ -35,7 +35,7 @@ RUN wget --quiet https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_6
     ln -s /opt/conda/etc/profile.d/conda.sh /etc/profile.d/conda.sh && \
     echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc && \
     echo "conda activate base" >> ~/.bashrc
-
+RUN conda install python=3.6.8
 # ENTRYPOINT [ "/usr/bin/tini", "--" ]
 # CMD [ "/bin/bash" ]
 
