@@ -1,3 +1,26 @@
+#################################################################################
+# ubg_core container Dockerfile
+#
+# ubuntu:16.04
+# navidia/cuda:9.0-cudnn7-devel
+# Set timezone EST
+# Install packages
+#   bzip2
+#   ca-certificates
+#   git
+#   libglib2.0-0
+#   libxext6
+#   libsm6
+#   libxrender1
+#   mercurial
+#   openssh-server
+#   subversion
+#   wget
+# Install tini
+# Install Anaconda3
+# Enabling login to the docker with non-root account
+# Start jupyter
+#################################################################################
 FROM nvidia/cuda:9.0-cudnn7-devel
 # The navidia/cuda:9.0-cudnn7-devel is ubuntu:16.04 base
 
